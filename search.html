@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physician Search</title>
+    <!-- Link to your existing CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Search for a Physician</h1>
+    <form id="search-form">
+        <label for="search-query">Search by name, specialty, or location</label>
+        <input type="text" id="search-query" name="query" required>
+        <button type="submit">Search</button>
+    </form>
+    <div id="search-results">
+        <!-- Display search results here -->
+    </div>
+    <section id="schedule">
+        <h2>Schedule</h2>
+        <form id="schedule-form">
+            <label for="schedule-date">Date</label>
+            <input type="date" id="schedule-date" name="date" required>
+
+            <label for="schedule-time">Time</label>
+            <input type="time" id="schedule-time" name="time" required>
+
+            <label for="schedule-location">Location</label>
+            <input type="text" id="schedule-location" name="location" required>
+
+            <label for="schedule-food">Food Preferences</label>
+            <input type="text" id="schedule-food" name="food">
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    
+</body>
+</html>
