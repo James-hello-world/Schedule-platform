@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduling Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page-wrap">
+        <header>
+            <h1>Medical Scheduling Platform</h1>
+        </header>
+
+        <main>
+            <section id="registration">
+                <h2>Registration</h2>
+                <form id="registration-form">
+                    <label for="reg-name">Name</label>
+                    <input type="text" id="reg-name" name="name" required>
+
+                    <label for="reg-email">Email</label>
+                    <input type="email" id="reg-email" name="email" required>
+
+                    <label for="reg-password">Password</label>
+                    <input type="password" id="reg-password" name="password" required>
+
+                    <button type="submit">Register</button>
+                </form>
+            </section>
+
+            <section id="login">
+                <h2>Client Login</h2>
+                <form id="login-form">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" name="email" required>
+
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" name="password" required>
+
+                    <button type="submit">Login</button>
+                </form>
+            </section>
+
+            <section id=" Physician login">
+                <h2>Physician Login</h2>
+                <form id="Physcian login-form">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" name="email" required>
+
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" name="password" required>
+
+                    <button type="submit">Login</button>
+                </form>
+            </section>
+
+            <section id="schedule">
+                <h2>Schedule</h2>
+                <form id="schedule-form">
+                    <label for="schedule-date">Date</label>
+                    <input type="date" id="schedule-date" name="date" required>
+
+                    <label for="schedule-time">Time</label>
+                    <input type="time" id="schedule-time" name="time" required>
+
+                    <label for="schedule-location">Location</label>
+                    <input type="text" id="schedule-location" name="location" required>
+
+                    <label for="schedule-food">Food Preferences</label>
+                    <input type="text" id="schedule-food" name="food">
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+
+            <section id="available-slots">
+                <h2>Available Slots</h2>
+                <div id="slots-container">
+                    <!-- Display available slots here -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Medical Scheduling Platform</p>
+    </footer>
+</body>
+
+</html>
